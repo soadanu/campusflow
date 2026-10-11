@@ -10,6 +10,7 @@ URGENCIES = ("low", "medium", "high")
 PRIORITY_ORDER = ("critical", "high", "medium", "low")
 
 #tickets
+
 def normalize_title(title):
     if not isinstance(title, str) or not title.strip():
         raise ValueError("Title must not be blank.")
