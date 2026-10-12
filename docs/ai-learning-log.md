@@ -1,22 +1,3 @@
-# AI Learning Log
-
-Write these yourself, truthfully. At least three per fellow; at least one must record an AI suggestion you checked and corrected, improved or rejected.
-
-## Fellow: <your name>
-
-### Interaction #1 — <concept/topic>
-Problem:
-My initial understanding:
-Prompt to AI:
-Useful AI guidance:
-My independent experiment/test:
-Verification source or result:
-Decision (accepted / improved / rejected, and why):
-Related file/commit:
-What I can now explain without AI:
-
-### Interaction #2 — <concept/topic>
-(copy the template above)
-
-### Interaction #3 — <concept/topic>
-(copy the template above)
+Git is about controlled, reviewed changes. Work on a named branch, stage only your own files by name (git add <files>, never git add .), and check the file count before opening a PR. You caught 15 files instead of 4 and fixed it by resetting the commit and renaming the branch. Nothing merges to main without your partner’s review.
+Validate first, then change data. create_ticket checks every input before it appends anything, so bad input can never corrupt the ticket list. The priority function works the same way: rules run in order and the first match returns, so the order of the checks is part of the logic.
+Check, don’t assume. A passing test run (Ran 14 tests ... OK) is evidence, and “it looks fine” is not. You verified the right branch name in the URL, the file count, and the real test output before trusting anything, and you checked your partner’s PR for merge conflicts and extra files instead of approving it blind.
